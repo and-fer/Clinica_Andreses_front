@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Los Andreses CO</title>
+</head>
+
+<body class="tw-bg-gray-200">
+  <!-- Navbar -->
+  <nav class="navbar tw-bg-slate-700 navbar-expand-lg " data-bs-theme="dark">
+
+    <div class="container-fluid tw-pl-16 tw-pr-20 tw-container tw-mx-auto tw-max-w-7xl">
+      <a class="navbar-brand" href="/index.html">
+        <svg class="tw-mr-2 -tw-mt-1" width="25px" height="25px" viewBox="0 0 24 24" fill="none"
+          xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path opacity="1"
+              d="M9.19807 4.45825C8.55418 4.22291 7.94427 4 7 4C5 4 4 6 4 8.5C4 10.0985 4.40885 11.0838 4.83441 12.1093C5.0744 12.6877 5.31971 13.2788 5.5 14C5.649 14.596 5.7092 15.4584 5.77321 16.3755C5.92401 18.536 6.096 21 7.5 21C8.39898 21 8.79286 19.5857 9.22652 18.0286C9.75765 16.1214 10.3485 14 12 14C13.6515 14 14.2423 16.1214 14.7735 18.0286C15.2071 19.5857 15.601 21 16.5 21C17.904 21 18.076 18.536 18.2268 16.3755C18.2908 15.4584 18.351 14.596 18.5 14C18.6803 13.2788 18.9256 12.6877 19.1656 12.1093C19.5912 11.0838 20 10.0985 20 8.5C20 6 19 4 17 4C16.0557 4 15.4458 4.22291 14.8019 4.45825C14.082 4.72136 13.3197 5 12 5C10.6803 5 9.91796 4.72136 9.19807 4.45825Z"
+              fill="#ffffff"></path>
+            <path
+              d="M9.19807 4.45825C8.55418 4.22291 7.94427 4 7 4C5 4 4 6 4 8.5C4 10.0985 4.40885 11.0838 4.83441 12.1093C5.0744 12.6877 5.31971 13.2788 5.5 14C5.649 14.596 5.7092 15.4584 5.77321 16.3755C5.92401 18.536 6.096 21 7.5 21C8.39898 21 8.79286 19.5857 9.22652 18.0286C9.75765 16.1214 10.3485 14 12 14C13.6515 14 14.2423 16.1214 14.7735 18.0286C15.2071 19.5857 15.601 21 16.5 21C17.904 21 18.076 18.536 18.2268 16.3755C18.2908 15.4584 18.351 14.596 18.5 14C18.6803 13.2788 18.9256 12.6877 19.1656 12.1093C19.5912 11.0838 20 10.0985 20 8.5C20 6 19 4 17 4C16.0557 4 15.4458 4.22291 14.8019 4.45825C14.082 4.72136 13.3197 5 12 5C10.6803 5 9.91796 4.72136 9.19807 4.45825Z"
+              stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </g>
+        </svg>Los Andreses C.O.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gestión de Pacientes
+            </a>
+            <ul class="dropdown-menu tw-bg-slate-800">
+              <li>
+                <a class="dropdown-item hover:tw-bg-slate-400 hover:tw-text-slate-700"
+                  href="/listar_pacientes.html">Listar Pacientes</a>
+              </li>
+              <li>
+                <a class="dropdown-item hover:tw-bg-slate-400 hover:tw-text-slate-700"
+                  href="/agregar_pacientes.html">Agregar Paciente</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gestión de Odontólogos
+            </a>
+            <ul class="dropdown-menu tw-bg-slate-800">
+              <li>
+                <a class="dropdown-item hover:tw-bg-slate-400 hover:tw-text-slate-700"
+                  href="/listar_odontologos.html">Listar Odontólogo</a>
+              </li>
+              <li>
+                <a class="dropdown-item hover:tw-bg-slate-400 hover:tw-text-slate-700"
+                  href="/agregar_odontologos.html">Agregar Odontólogo</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <a class="-tw-mt-1 tw-pl-2 tw-group tw-hidden lg:tw-inline-block"
+          href="https://github.com/anruflo/ProyectoIntegradorBE_AndresFerrada_AndresRuiz">
+          <svg class="tw-fill-current tw-text-slate-400 group-hover:tw-text-white tw-transition-colors tw-duration-300"
+            width="19" height="19" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <title>github [#ffffff]</title>
+              <desc>Created with Sketch.</desc>
+              <defs> </defs>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="currentColor">
+                  <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path
+                      d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                      id="github-[#ffffff]"> </path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="tw-container tw-mx-auto tw-max-w-7xl  lg:tw-px-2 lg:tw-mt-10">
+
+    <div class="row ">
+      <div class="col-12 col-lg-6 order-2 order-lg-1 tw-py-2 tw-px-20 lg:tw-py-28 lg:tw-pr-15 tw-text-slate-700">
+        <header>
+          <h1>Los Andreses, <br>Clínica Odontológica</h1>
+          <p class="tw-text-xl">El poder de los datos al servicio de la salud dental, de manera eficiente y segura</p>
+        </header>
+
+        <div class="tw-mt-8">
+          <a href="agregar_pacientes.html" class="btn btn-primary tw-mb-2">Registrar paciente</a>
+          <a href="agregar_odontologos.html" class="btn btn-secondary tw-mb-2">Registrar odontólogo</a>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6 tw-order-1 tw-order-lg-2">
+        <div class="md:tw-p-20  tw-pb-8 lg:tw-p-20 lg:tw-pl-0 ">
+          <img class="img-fluid md:tw-rounded-2xl tw-shadow-md "
+            src="https://images.unsplash.com/photo-1681939282781-341ac4f61996?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Dentista atendiendo paciente con mascarilla">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/tailwindconfig.js"></script>
+</body>
+
+</html>
